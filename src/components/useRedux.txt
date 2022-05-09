@@ -1,0 +1,13 @@
+Redux my own Rules -
+
+// Step 1 - create redux=>action=>action.js; action amader bole dite hobe ki korbo. ekhane amra index.js and actions.js 2ti file niye kaj korte pari.
+
+// Step 2 - create redux=>reducers=>index.js & ....js niye ekhane bole dite hobe amra ki korbo. amra reducers alada vabe made korle index.js import kore dite hobe & combineReducers call kore action and reducers pack korte hobe.
+
+// Step 3 - create redux=>store.js; import {createStore} from "redux", import rootReducer from "./reducers" and export store var.
+
+// Step 4 - go index.js; and import {Provider} from "react-redux", import { store } from "./redux/store", use subscibe for ui change and Provider use with store.
+
+// Step 5 - import { useSelector } from "react-redux"; in your components, store this with a var and catch a redux object from reducers index.
+
+// Step 6 - import { useDispatch } from "react-redux"; in your components, store useDispatch in a variable and handle function for send data.
